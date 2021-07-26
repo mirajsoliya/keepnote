@@ -31,7 +31,9 @@ body {
 }
 
 .btn-div {
-  position: fixed;
+  position:absolute;
+  /* position:fixed; */
+
   top: 7rem;
   right: 1rem;
   border: none;
@@ -175,6 +177,7 @@ button:hover .button-text {
   padding: 10px;
   background-color: #2ecc71;
   border-radius: 50%;
+
 }
 
 .fa-trash-alt {
@@ -199,4 +202,11 @@ button:hover .button-text {
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width:1080px) {
+  .note{
+    height: 150px;
+    width: 300px;
+  }
 }
